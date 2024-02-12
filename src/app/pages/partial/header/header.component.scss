@@ -1,0 +1,47 @@
+#menu {
+  margin: 20px;
+  padding: 10px;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: sans-serif;
+}
+
+#menu li {
+  position: relative;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+#menu li:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+#menu .menu-home {
+  background-color: red;
+  color: white;
+  font-weight: 300;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: red;
+  font-family: 'Times New Roman', Times, serif;
+  min-width: 170px;
+  top: 100%;
+  left: 0;
+}
+
+li:hover .dropdown-content {
+  display: block;
+}

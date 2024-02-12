@@ -1,0 +1,31 @@
+.carousalDiv {
+  img {
+    width: 100% !important;
+  }
+}
+
+.backgroundImage {
+  background: url('../../../../assets/img/home/meet.jpg');
+  padding: 50px 8% 50px;
+  background-repeat: round;
+}
+
+.first-second {
+  width: 48%;
+}
+
+.messageDiv {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #ffffff; 
+  padding: 50px 8% 50px;
+}
+
+.big {
+  color: red;
+  font-size: 26px;
+}
+
+.small {
+  color: #272727;
+  font-size: 110%;
+}

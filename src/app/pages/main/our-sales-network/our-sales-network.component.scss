@@ -1,0 +1,54 @@
+.title {
+    color: #272727;
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+}
+
+.grid-region {
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
+    color: red;
+}
+
+.grid-item {
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.city-name {
+    color: red;
+}
+
+.address {
+    font-style: italic;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.avatar-circle {
+	line-height: 0;
+	display: inline-block;
+	margin: 5px;
+    border: 4px solid rgba(200,200,200,0.4);
+	border-radius: 50%;
+	transition: linear 0.25s;
+    height: 128px;
+    width: 128px;
+}
+
+.avatar-circle img {
+	border-radius: 50%;
+}
+
+.email {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
